@@ -1,4 +1,3 @@
-
 <?php include('partials/header.php'); ?>
 
 <!-- =============================================
@@ -9,13 +8,23 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-7 hero-content">
-        <h1 class="reveal">Welcome to BhOOKey.com</h1>
+        <div class="">
+          <h1 class="reveal">
+            <!-- animated word container: new class "word-rotator" -->
+            <span class="word-rotator">
+              <span class="rotating-word-text" id="dynamicGreeting">Welcome</span>
+            </span>
+            <span class="static-text"> to </span>
+            <br class="break-line">
+            <span class="static-text"><span class="brand">BhOOKey.com</span></span>
+          </h1>
+        </div>
         <p class="reveal reveal-delay-1">
           Dive into a magical world of adventure with our carefully curated
           selection of children's books that promote learning, creativity, and
           cultural appreciation.
         </p>
-        <a href="contact.html" class="btn-hero reveal reveal-delay-2">Discover More</a>
+        <a href="contact.php" class="btn-hero reveal reveal-delay-2">Discover More</a>
       </div>
     </div>
   </div>
@@ -106,7 +115,7 @@
           </div>
         </div>
 
-        <a href="services.html" class="btn-primary-dark mt-4">Learn More</a>
+        <a href="services.php" class="btn-primary-dark mt-4">Learn More</a>
       </div>
 
       <!-- Right: Image -->
@@ -150,8 +159,8 @@
           <div class="book-card-body">
             <div class="book-card-title">Cultural Adventures</div>
             <p>Unleash the power of storytelling with books that celebrate
-               diverse cultures and languages, guiding children on journeys of
-               understanding and empathy.</p>
+              diverse cultures and languages, guiding children on journeys of
+              understanding and empathy.</p>
           </div>
         </div>
       </div>
@@ -162,7 +171,7 @@
           <div class="book-card-body">
             <div class="book-card-title">Learning Through Play</div>
             <p>Our books engage young readers through fun narratives and
-               interactive themes that make learning an enjoyable adventure.</p>
+              interactive themes that make learning an enjoyable adventure.</p>
           </div>
         </div>
       </div>
@@ -173,8 +182,8 @@
           <div class="book-card-body">
             <div class="book-card-title">Creative Challenges</div>
             <p>Designed to provoke curiosity and critical thinking, our stories
-               incorporate challenges that will keep children engaged and eager
-               to learn more.</p>
+              incorporate challenges that will keep children engaged and eager
+              to learn more.</p>
           </div>
         </div>
       </div>
@@ -222,8 +231,8 @@
           teacher, or a cultural storyteller, this is your space to connect,
           create, and celebrate the power of stories.
         </p>
-        <a href="https://www.paypal.com/ncp/payment/SVT2TPDXC7T5G"
-           class="btn-join mt-3" target="_blank" rel="noopener">Join Now!</a>
+        <a href="https://www.paypal.com/ncp/payment/SVT2TPDXC7T5G" class="btn-join mt-3" target="_blank"
+          rel="noopener">Join Now!</a>
       </div>
 
     </div>
@@ -244,7 +253,7 @@
           </div>
           <h3 class="featured-card-title">The Adventure Begins</h3>
           <p>A delightful tale about a girl who discovers a hidden world
-             filled with magical creatures.</p>
+            filled with magical creatures.</p>
         </div>
       </div>
 
@@ -255,7 +264,7 @@
           </div>
           <h3 class="featured-card-title">Cultural Journeys</h3>
           <p>A story that takes readers on an adventure through various
-             cultural landscapes, celebrating traditions and values.</p>
+            cultural landscapes, celebrating traditions and values.</p>
         </div>
       </div>
 
@@ -266,7 +275,7 @@
           </div>
           <h3 class="featured-card-title">Mystery of the Hidden Temple</h3>
           <p>A thrilling quest set in ancient ruins where children learn
-             teamwork and problem-solving skills.</p>
+            teamwork and problem-solving skills.</p>
         </div>
       </div>
 
@@ -400,7 +409,7 @@
         <div class="testimonial-card float-card">
           <p class="testimonial-text">
             "Bhookey.com has transformed my child's reading experience!
-             They're more engaged than ever."
+            They're more engaged than ever."
           </p>
           <div class="testimonial-author-wrap">
             <img src="images/clients01.jpg" alt="John Smith" class="testimonial-img" />
@@ -416,7 +425,7 @@
         <div class="testimonial-card float-card">
           <p class="testimonial-text">
             "The adventures are fun and teach valuable lessons—my favorite
-             gift to give!"
+            gift to give!"
           </p>
           <div class="testimonial-author-wrap">
             <img src="images/clients02.jpg" alt="Sarah Taylor" class="testimonial-img" />
@@ -446,5 +455,100 @@
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    // ---------- WORD LIST (exactly as requested: welcome, bienvenue, bienvenido, ihola) ----------
+    const greetingWords = ["welcome", "bienvenue", "bienvenido", "willkommen"];
+    let currentWordIndex = 0;          // starting from "hello"
+    let rotateInterval = null;
+    let isTransitioning = false;        // prevent overlapping transitions
+
+    // DOM element references
+    const wordSpan = document.getElementById("dynamicGreeting");
+    if (!wordSpan) return;
+
+    // Helper: apply new word with smooth animation (NEW classes + CSS)
+    function animateToNextWord() {
+      // Avoid overlapping if a transition is already running
+      if (isTransitioning) return;
+      isTransitioning = true;
+
+      // 1. Add fade-out class (new class from CSS)
+      wordSpan.classList.add("fade-out-word");
+
+      // 2. After short delay, change text content and trigger entrance animation
+      setTimeout(() => {
+        // calculate next index (cycle)
+        currentWordIndex = (currentWordIndex + 1) % greetingWords.length;
+        const newWord = greetingWords[currentWordIndex];
+
+        // update text content while element is faded-out (invisible)
+        wordSpan.textContent = newWord;
+
+        // 3. Remove fade-out class to reveal again
+        wordSpan.classList.remove("fade-out-word");
+
+        // 4. Add "word-pop" class to get fresh pop/bounce animation (NEW CLASS effect)
+        wordSpan.classList.add("word-pop");
+
+        // 5. Clean up pop class after animation completes to keep future transitions clean
+        setTimeout(() => {
+          wordSpan.classList.remove("word-pop");
+          // transition flag reset, ready for next rotation
+          isTransitioning = false;
+        }, 380);  // matches gentlePop duration (0.38s)
+
+      }, 160); // slightly less than CSS fade-out transition (0.28s) for smooth feeling
+    }
+
+    // Function to start the word rotator (interval 2 seconds)
+    function startWordRotation() {
+      if (rotateInterval) clearInterval(rotateInterval);
+      // Rotate every 2 seconds (2000ms) – classic word animation timing
+      rotateInterval = setInterval(() => {
+        animateToNextWord();
+      }, 2000);
+    }
+
+    // Optional: add a small initial entrance effect for the first word ("hello")
+    function initialEntrance() {
+      wordSpan.classList.add("word-pop");
+      setTimeout(() => {
+        wordSpan.classList.remove("word-pop");
+      }, 400);
+    }
+
+    // Start everything
+    startWordRotation();
+    initialEntrance();
+
+    // (Bonus) Pause on hover if needed? Not required, but keeps UX clean — but NOT interfering
+    // For better user experience, we can pause animation when hovering over the word rotator? 
+    // but not mandatory, but optional: let's add a clean hover pause to avoid distraction
+    const rotatorContainer = document.querySelector(".word-rotator");
+    if (rotatorContainer) {
+      rotatorContainer.addEventListener("mouseenter", () => {
+        if (rotateInterval) {
+          clearInterval(rotateInterval);
+          rotateInterval = null;
+        }
+      });
+      rotatorContainer.addEventListener("mouseleave", () => {
+        if (!rotateInterval) {
+          rotateInterval = setInterval(() => {
+            animateToNextWord();
+          }, 2000);
+        }
+      });
+    }
+
+    // Edge case: prevent memory leaks / page unload (cleanup not strictly needed but good)
+    window.addEventListener("beforeunload", () => {
+      if (rotateInterval) clearInterval(rotateInterval);
+    });
+  })();
+</script>
+
 
 <?php include('partials/footer.php'); ?>
