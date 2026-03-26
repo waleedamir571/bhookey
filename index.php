@@ -203,7 +203,7 @@
       <h2 class="cta-title">Get Kids Excited About Reading!</h2>
       <div class="cta-phone-box">
         <div class="cta-phone">
-          <a href="tel:8322886418"><i class="fas fa-phone-alt me-2" style="font-size:.7em;"></i>832-288-6418</a>
+          <a href="tel:+1-301-615-1239"><i class="fas fa-phone-alt me-2" style="font-size:.7em;"></i>+1-301-615-1239</a>
         </div>
       </div>
     </div>

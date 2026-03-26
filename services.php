@@ -249,19 +249,7 @@
 </section>
 
 <!-- CTA STRIP -->
-<section class="cta-section">
-  <div class="cta-overlay"></div>
-  <div class="container">
-    <div class="cta-content reveal">
-      <p class="cta-label">Join the Adventure</p>
-      <h2 class="cta-title">Get Kids Excited About Reading!</h2>
-      <div class="cta-phone-box">
-        <div class="cta-phone"><a href="tel:8322886418"><i class="fas fa-phone-alt me-2"
-              style="font-size:.7em;"></i>832-288-6418</a></div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- FOOTER -->
 <?php include('partials/footer.php'); ?>

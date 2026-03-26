@@ -28,7 +28,7 @@
         </div>
         <div class="footer-contact-item">
           <i class="fas fa-phone-alt"></i>
-          <a href="tel:8322886418">832-288-6418</a>
+          <a href="tel:+1-301-615-1239">+1-301-615-1239</a>
         </div>
       </div>
 

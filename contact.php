@@ -99,7 +99,7 @@
         <div class="info-card text-center">
           <div class="info-icon mx-auto"><i class="fas fa-phone-alt"></i></div>
           <h4>Phone Number</h4>
-          <a href="tel:8322886418">832-288-6418</a>
+          <a href="tel:+1-301-615-1239">+1-301-615-1239</a>
         </div>
       </div>
       <div class="col-md-4 reveal reveal-delay-3">
