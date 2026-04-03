@@ -4,6 +4,10 @@
      HERO
      ============================================= -->
 <section class="hero">
+   <video autoplay muted loop playsinline class="hero-video">
+    <source src="images/Updated.mp4" type="video/mp4">
+    
+  </video>
   <div class="hero-overlay"></div>
   <div class="container">
     <div class="row align-items-center">
@@ -12,7 +16,7 @@
           <h1 class="reveal">
             <!-- animated word container: new class "word-rotator" -->
             <span class="word-rotator">
-              <span class="rotating-word-text" id="dynamicGreeting">Welcome</span>
+              <span class="rotating-word-text" id="dynamicGreeting">Hello</span>
             </span>
             <span class="static-text"> to </span>
             <br class="break-line">
@@ -142,7 +146,7 @@
         <h2 class="section-title mt-3">Our Adventure Books</h2>
       </div>
       <div class="col-lg-6 reveal reveal-delay-1">
-        <p class="section-subtitle">
+        <p class="section-subtitle black">
           At BhOOKey.com, we offer a diverse range of adventure-themed
           children's books that encourage imagination and foster a love for
           cultural exploration and language.
@@ -459,7 +463,7 @@
 <script>
   (function () {
     // ---------- WORD LIST (exactly as requested: welcome, bienvenue, bienvenido, ihola) ----------
-    const greetingWords = ["welcome", "bienvenue", "bienvenido", "willkommen"];
+    const greetingWords = ["Hello", "Bonjour", "Hola", "Bawo"];
     let currentWordIndex = 0;          // starting from "hello"
     let rotateInterval = null;
     let isTransitioning = false;        // prevent overlapping transitions
