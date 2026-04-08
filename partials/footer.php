@@ -7,7 +7,7 @@
 
       <!-- Col 1: Brand -->
       <div class="col-lg-4 col-md-6 reveal">
-        <div class="footer-brand">BhOO<span>Key</span>.com</div>
+        <div class="footer-brand"><img class="w-35" src="images/logo.png" alt="BhOOKey.com"></div>
         <p class="footer-desc">
           BhOOKey.com is dedicated to enriching children's lives through
           captivating stories that ignite their love for multi-language

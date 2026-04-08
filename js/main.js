@@ -63,10 +63,10 @@
 
   /* ---- Active Nav Link ---- */
   function initActiveNav() {
-    const path = window.location.pathname.split('/').pop() || 'index.html';
+    const path = window.location.pathname.split('/').pop() || 'index.php';
     document.querySelectorAll('.nav-link').forEach((link) => {
       const href = link.getAttribute('href');
-      if (href === path || (path === '' && href === 'index.html')) {
+      if (href === path || (path === '' && href === 'index.php')) {
         link.classList.add('active');
       }
     });

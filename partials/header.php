@@ -9,6 +9,9 @@
         content="BhOOKey.com – Children's Adventure Books that inspire learning, creativity and cultural appreciation." />
     <link rel="canonical" href="index.php" />
 
+
+     <link rel="icon" type="image/png"  href="images/favicon-32x32.png">
+
     <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
     <!-- Font Awesome -->
@@ -56,7 +59,7 @@
      ============================================= -->
     <nav class="site-navbar navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="index.php">BhOO<span>Key</span>.com</a>
+            <a class="navbar-brand" href="index.php"><img class="w-15" src="images/logo.png" alt="BhOOKey.com"></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +88,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-order-btn" href="order-now.php">Order Now.</a>
+                        <a class="nav-link nav-order-btn" href="order-now.php">Order </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>

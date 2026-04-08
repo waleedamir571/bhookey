@@ -1,8 +1,8 @@
 <?php include 'partials/header.php'; ?>
 
- <style>
+<style>
 
-  </style>
+</style>
 
 <!-- PAGE HERO -->
 <section class="page-hero">
@@ -12,7 +12,7 @@
       <h1>About Us</h1>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">About Us</li>
         </ol>
       </nav>
@@ -26,17 +26,17 @@
     <div class="row align-items-center g-5">
       <div class="col-lg-6 reveal">
         <span class="badge-label">Who We Are</span>
-        <h2 class="section-title mt-3">About BhOOKey.com</h2>
+        <h2 class="section-title mt-3">Hi friend… I was waiting for you! </h2>
         <p class="section-subtitle mt-3">
-          At BhOOKey.com, we believe in the power of stories to transform lives.
-          Our mission is to inspire children, foster cultural appreciation, and
-          promote a love for reading through adventure-themed books.
+          Let’s read together! We’ll say hello, explore new places, and find fun surprises in every story. Come on,
+          let’s go on a little adventure.
+
         </p>
-        <p class="section-subtitle mt-3">
+        <!-- <p class="section-subtitle mt-3">
           Founded with a deep passion for literacy and cultural exchange, we craft
           stories that take young readers on journeys across continents, languages,
           and traditions — all while embedding timeless moral lessons.
-        </p>
+        </p> -->
         <div class="row mt-4">
           <div class="col-6">
             <ul class="check-list">
@@ -99,28 +99,34 @@
   <div class="container">
     <div class="text-center mb-5 reveal">
       <span class="badge-label">What Drives Us</span>
-      <h2 class="section-title mt-3">Our Core Values</h2>
+      <h2 class="section-title mt-3">What Makes BhOOkey Special</h2>
     </div>
     <div class="row g-4">
       <div class="col-md-4 reveal reveal-delay-1">
         <div class="value-card">
           <div class="value-icon"><i class="fas fa-book-open"></i></div>
-          <h3 class="value-title">Love for Reading</h3>
-          <p>We ignite a lifelong love for books by making reading a joyful, immersive adventure for every child.</p>
+          <h3 class="value-title">Let’s Fall in Love with Reading</h3>
+          <p>We make reading feel fun and exciting, turning every story into a happy little adventure kids enjoy again
+            and again.
+          </p>
         </div>
       </div>
       <div class="col-md-4 reveal reveal-delay-2">
         <div class="value-card">
           <div class="value-icon"><i class="fas fa-globe-africa"></i></div>
-          <h3 class="value-title">Cultural Appreciation</h3>
-          <p>Our stories celebrate the beauty of diverse cultures, helping children grow up as global citizens.</p>
+          <h3 class="value-title">Let’s Explore the World Together
+          </h3>
+          <p>Our stories celebrate different cultures, helping kids discover new places, new people, and grow into
+            little global explorers.</p>
         </div>
       </div>
       <div class="col-md-4 reveal reveal-delay-3">
         <div class="value-card">
           <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
-          <h3 class="value-title">Creative Growth</h3>
-          <p>We design activities and narratives that stimulate imagination, critical thinking and creativity.</p>
+          <h3 class="value-title">Let’s Imagine and Create
+          </h3>
+          <p>We create stories and fun activities that spark imagination, build thinking skills, and let creativity grow
+            naturally.</p>
         </div>
       </div>
     </div>
@@ -133,7 +139,7 @@
     <div class="text-center mb-5 reveal">
       <span class="badge-label">Our Passionate Friends</span>
       <h2 class="section-title mt-3">Meet Our Team</h2>
-      <p class="section-subtitle mt-2">The Creative Minds Behind Our Stories</p>
+      <p class="section-subtitle mt-2 black">The Creative Minds Behind Our Stories</p>
     </div>
     <div class="row g-4">
       <div class="col-md-4 reveal reveal-delay-1">

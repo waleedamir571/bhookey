@@ -35,7 +35,7 @@
       <div class="col-md-6">
 
         <!-- Heading -->
-        <h2 class="order-right-title">Pay with Zelle or CashApp</h2>
+        <h2 class="order-right-title">Pay via Zelle or Cash App</h2>
 
         <!-- Testimonial slider content – 1 slide, autoplay -->
         <div class="order-slider-wrap">
@@ -43,9 +43,9 @@
           <!-- Slide content (testimonial-content) -->
           <div class="order-payment-text">
             <p>
-              <span>Call </span>832-288-6418 or Email:
-              info@bhookey.com to place your order.
-              Someone will be available to help you with your order.
+              To place your order, call 832-288-6418 or email info@bhookey.com.
+              Our team will assist you with your purchase.
+
               <strong><br><br>CASHAPP</strong>: $OLUBUKOLAESOJITAIWO
             </p>
             <p>
@@ -59,8 +59,8 @@
             <!-- <img src="images/enspayou.png" alt="Order via PayPal" class="order-avatar" /> -->
             <!-- Cite: name + title -->
             <div class="order-cite">
-              <p class="order-author-name">Order Via PayPal</p>
-              <p class="order-author-title">Click the button below.</p>
+              <p class="order-author-name">You can also order through PayPal</p>
+              <p class="order-author-title">Simply click the button below.</p>
             </div>
           </div>
 
@@ -110,31 +110,33 @@
             <!-- Paragraph 1 – Introduction, animation-delay:600ms -->
             <p class="wow fadeInRight delay-600">
               <strong>introduction</strong>:
-              <em><br>Discover the joy of greetings with BhOOkey!</em>
+              <em><br> What if one simple “hello” could open a whole new world?
+              </em>
               <br><br>
-              Meet BhOOkey, a fun-loving, adventurous girl who travels the world
-              making new friends. In this premiere storybook from the #EnFreYoSpa series.&nbsp;
+              Meet BhOOkey, a bright, curious little traveler who loves meeting new people and making new friends
+              wherever she goes. This first book in the #EnFreYoSpa series brings her journey to life in the most
+              playful and heartwarming way.
+
             </p>
 
             <!-- Paragraph 2 – Ages / languages, animation-delay:600ms slow -->
             <p class="wow fadeInRight delay-700">
-              Children ages 4–12 years learn to say "Hello" in English, French,
-              Yoruba, and Spanish through colorful stories, playful activities, and
-              cultural adventures.
+              Through her adventures, children ages 4–12 get to explore how “hello” sounds in English, French, Yoruba,
+              and Spanish, not just as words, but as moments of connection.
+
             </p>
 
             <!-- Paragraph 3 – Families & classrooms, animation-delay:600ms slowest -->
             <p class="wow fadeInRight delay-800">
-              Designed for families and classrooms, this book blends story, learning,
-              and fun to inspire young readers to become global citizens. One child at
-              a time, one word at a time.&nbsp;
+              This isn’t just a storybook. It’s a shared experience, for families, for classrooms, for those little
+              everyday moments where learning feels like play.
             </p>
 
             <!-- Paragraph 4 – Countries, animation-delay:900ms -->
             <p class="wow fadeInRight delay-900">
-              As BhOOkey explores England, France, Nigeria, and Spain, she shows
-              children the power of words to build friendship, kindness, and
-              understanding across cultures.
+              As BhOOkey travels through England, France, Nigeria, and Spain, she shows children something simple but
+              powerful:
+              sometimes all it takes is one word to turn a stranger into a friend
             </p>
 
           </div>

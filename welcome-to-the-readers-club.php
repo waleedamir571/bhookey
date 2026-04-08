@@ -126,20 +126,20 @@
 <main>
 
 
-<section class="page-hero">
-  <div class="hero-overlay"></div>
-  <div class="container">
-    <div class="hero-content reveal">
-      <h1>About Us</h1>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-          <li class="breadcrumb-item active">welcome-to-the-readers-club</li>
-        </ol>
-      </nav>
+  <section class="page-hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content reveal">
+        <h1>About Us</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+            <li class="breadcrumb-item active">welcome-to-the-readers-club</li>
+          </ol>
+        </nav>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
   <article>
     <div class="readers-club-content">
 
@@ -149,13 +149,15 @@
       </figure>
 
       <!-- Heading: "Where Young Minds Explore, Share, and Grow" -->
-      <h3 class="wp-block-heading">Where Young Minds Explore, Share, and Grow</h3>
+      <h3 class="wp-block-heading">Come, Play in BhOOkey’s Little Reading World!</h3>
 
       <!-- Intro paragraph -->
       <p>
-        <strong>The Bhookey Readers Club</strong> is your gateway to a world of imagination, language,
-        and global adventure. Whether you're a curious child, a proud parent, a passionate teacher, or a
-        cultural storyteller, this is your space to connect, create, and celebrate the power of stories.
+        Hey hey!
+        Are you ready for a fun story game?
+        Come, join BhOOkey and friends!
+        We’ll read, laugh, say hello in new ways, and go on happy little adventures together!
+
       </p>
 
       <!-- Heading: "🌍 What We Offer" -->
@@ -164,31 +166,38 @@
       <!-- What we offer list -->
       <ul class="wp-block-list">
         <li>
-          <strong>Multilingual Storytime:</strong> Read and listen to Bhookey tales in English,
-          French, Yoruba, Spanish, and more.
+          <strong>Can You Say Hello?</strong> Let’s try it together!
+          Hello… Bonjour… Hola… can you say it too?
+
         </li>
         <li>
-          <strong>Adventure Challenges:</strong> Complete fun reading quests and unlock badges like
-          <em>Word Warrior</em>, <em>Culture Keeper</em>, and <em>Language Explorer</em>.
+          <strong>Ready for a Challenge?
+          </strong> Can you finish the story?
+          Can you try a new word?
+          Let’s see what you can do! .
         </li>
         <li>
-          <strong>Creative Corner:</strong> Submit your own stories, poems, or drawings inspired by
-          Bhookey characters.
+          <strong>Show Me Your Ideas!</strong> Draw something! Write something!
+          What did you imagine? I want to see!
         </li>
         <li>
-          <strong>Global Pen Pals:</strong> Connect with young readers around the world through safe,
-          moderated exchanges.
+          <strong>Let’s Make New Friends!
+          </strong> Wave HELLO!
+          Say hi to friends from different places
+
         </li>
         <li>
-          <strong>Monthly Spotlight:</strong> Celebrate a featured reader, classroom, or community
-          that's making storytelling magic.
+          <strong>Guess What…
+          </strong> You can be our star!
+          Yes YOU!
+
         </li>
       </ul>
 
-      <!-- Heading: "🦁 Why Join?" -->
-      <h3 class="wp-block-heading">🦁 Why Join?</h3>
+     
+      <!-- <h3 class="wp-block-heading">🦁 Why Join?</h3>
 
-      <!-- Why join list -->
+      
       <ul class="wp-block-list">
         <li>Build language skills while exploring diverse cultures</li>
         <li>Discover new books from the #EnFreYoSpa series and beyond</li>
@@ -196,10 +205,10 @@
         <li>Get early access to new releases, contests, and events</li>
       </ul>
 
-      <!-- Heading: "✨ How to Join" -->
+    
       <h3 class="wp-block-heading">✨ How to Join</h3>
 
-      <!-- How to join ordered list -->
+    
       <ol start="1" class="wp-block-list">
         <li><strong>Sign up</strong> with a parent, teacher, or guardian</li>
         <li><strong>Create your Reader Profile</strong> — pick your favorite Bhookey animal avatar</li>
@@ -207,10 +216,10 @@
         <li><strong>Share your voice</strong> — submit your work to be featured on Bhookey.com</li>
       </ol>
 
-      <!-- Heading: "💬 From Our Readers" -->
+    
       <h3 class="wp-block-heading">💬 From Our Readers</h3>
 
-      <!-- Blockquote -->
+    
       <blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
         <p>
           "I love reading in Yoruba and French — it makes me feel like I'm traveling!" —
@@ -220,15 +229,15 @@
         </p>
       </blockquote>
 
-      <!-- Heading: "🎉 Coming Soon" -->
+     
       <h3 class="wp-block-heading">🎉 Coming Soon</h3>
 
-      <!-- Coming soon list -->
+     
       <ul class="wp-block-list">
         <li>Bhookey Book Swap</li>
         <li>Virtual Storytelling Circles</li>
         <li>Readers Club Podcast</li>
-      </ul>
+      </ul> -->
 
     </div><!-- /readers-club-content -->
   </article>

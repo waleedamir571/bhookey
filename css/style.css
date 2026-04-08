@@ -51,6 +51,13 @@ body {
   overflow-x: hidden;
 }
 
+.w-15{
+  width: 15%;
+}
+.w-35{
+  width: 35%;
+}
+
 .black{
   color: #000 !important;
 }
@@ -1107,5 +1114,33 @@ p {
 
   .about-img-wrapper {
     border-width: 0 0 5px 5px;
+  }
+  .site-navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* 🔥 IMPORTANT */
+  }
+
+  .site-navbar .navbar-brand {
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-navbar .navbar-toggler {
+    margin-left: auto;
+  }
+  .w-15 {
+    width: 25%;
+}
+
+  /* collapse menu full width neeche aaye */
+  .site-navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
   }
 }

@@ -4,9 +4,9 @@
      HERO
      ============================================= -->
 <section class="hero">
-   <video autoplay muted loop playsinline class="hero-video">
+  <video autoplay muted loop playsinline class="hero-video">
     <source src="images/Updated.mp4" type="video/mp4">
-    
+
   </video>
   <div class="hero-overlay"></div>
   <div class="container">
@@ -24,9 +24,9 @@
           </h1>
         </div>
         <p class="reveal reveal-delay-1">
-          Dive into a magical world of adventure with our carefully curated
-          selection of children's books that promote learning, creativity, and
-          cultural appreciation.
+          Come closer… let’s go on a secret little adventure 
+          We’re going to say HELLO in fun new ways, meet new friends, and discover a big, colorful world together.
+
         </p>
         <a href="contact.php" class="btn-hero reveal reveal-delay-2">Discover More</a>
       </div>
@@ -47,10 +47,10 @@
           <div class="feature-icon">
             <i class="fas fa-user-nurse"></i>
           </div>
-          <div class="feature-title">Engaging Storylines</div>
+          <div class="feature-title">Fun Stories You’ll Love</div>
           <p class="feature-text mt-2">
-            Captivating tales that draw children into complex worlds while
-            imparting moral lessons and cultural contexts.
+            Open the book… and go!
+            BhOOkey is waiting. Let’s say hello and see what happens next 
           </p>
         </div>
       </div>
@@ -61,10 +61,11 @@
           <div class="feature-icon">
             <i class="fas fa-microscope"></i>
           </div>
-          <div class="feature-title">Interactive Activities</div>
+          <div class="feature-title">Play & Try It Yourself</div>
           <p class="feature-text mt-2">
-            Each book comes with activities that encourage children to apply
-            what they've learned in fun and interactive ways.
+            Your turn! 🎉
+            Can you say hello too? Can you try it like BhOOkey? Let’s play!
+
           </p>
         </div>
       </div>
@@ -75,10 +76,12 @@
           <div class="feature-icon">
             <i class="fas fa-hand-holding-heart"></i>
           </div>
-          <div class="feature-title">Cultural Richness</div>
+          <div class="feature-title">A Big, Colorful World
+          </div>
           <p class="feature-text mt-2">
-            Celebrate diversity through stories that introduce young readers
-            to different cultures and traditions around the globe.
+            So many hellos!
+            So many places!
+            Let’s go see them with BhOOkey 
           </p>
         </div>
       </div>
@@ -97,11 +100,11 @@
       <!-- Left: Text -->
       <div class="col-lg-6 reveal">
         <span class="badge-label">Get to Know Us</span>
-        <h2 class="section-title mt-3">About BhOOKey.com</h2>
+        <h2 class="section-title mt-3">Come, Say Hello with BhOOkey</h2>
         <p class="section-subtitle mt-3">
-          At BhOOKey.com, we believe in the power of stories to transform lives.
-          Our mission is to inspire children, foster cultural appreciation, and
-          promote a love for reading through adventure-themed books.
+          At BhOOkey.com, we love fun little stories that make you smile and explore. Our stories help children learn
+          new hellos, discover new places, and enjoy reading through happy, exciting adventures.
+
         </p>
 
         <div class="row mt-4">
@@ -143,13 +146,14 @@
     <div class="row align-items-end mb-5">
       <div class="col-lg-6 reveal">
         <span class="badge-label">Books that teaches languages</span>
-        <h2 class="section-title mt-3">Our Adventure Books</h2>
+        <h2 class="section-title mt-3">Ready, Set… Book Time!</h2>
       </div>
       <div class="col-lg-6 reveal reveal-delay-1">
         <p class="section-subtitle black">
-          At BhOOKey.com, we offer a diverse range of adventure-themed
-          children's books that encourage imagination and foster a love for
-          cultural exploration and language.
+          Hey you! 👀
+          Want to go on a fun little adventure? Open a book and let’s go! Say hello, meet new friends, learn new words,
+          and see what surprise is waiting on the next page
+
         </p>
       </div>
     </div>
@@ -161,10 +165,11 @@
         <div class="book-card float-card">
           <img src="images/pexels-photo-12719357-2.jpeg" alt="Cultural Adventures" />
           <div class="book-card-body">
-            <div class="book-card-title">Cultural Adventures</div>
-            <p>Unleash the power of storytelling with books that celebrate
-              diverse cultures and languages, guiding children on journeys of
-              understanding and empathy.</p>
+            <div class="book-card-title">Let’s Explore the World
+            </div>
+            <p>Hey, come with me!
+              Let’s see fun places, new friends, and different hellos. Can you say them too? Let’s try together and
+              smile</p>
           </div>
         </div>
       </div>
@@ -173,9 +178,12 @@
         <div class="book-card float-card">
           <img src="images/book_dummy.png" alt="Learning Through Play" />
           <div class="book-card-body">
-            <div class="book-card-title">Learning Through Play</div>
-            <p>Our books engage young readers through fun narratives and
-              interactive themes that make learning an enjoyable adventure.</p>
+            <div class="book-card-title">Let’s Read & Play
+            </div>
+            <p>Yay, let’s play!
+              Funny little stories, silly moments, and fun surprises on every page. What will you find next? Turn and
+              see!
+            </p>
           </div>
         </div>
       </div>
@@ -184,10 +192,10 @@
         <div class="book-card float-card">
           <img src="images/Adventure-Books_13.png" alt="Creative Challenges" />
           <div class="book-card-body">
-            <div class="book-card-title">Creative Challenges</div>
-            <p>Designed to provoke curiosity and critical thinking, our stories
-              incorporate challenges that will keep children engaged and eager
-              to learn more.</p>
+            <div class="book-card-title">Your Turn to Try! </div>
+            <p>Ready? Let’s go!
+              Can you guess, think, and try the fun little challenges? Let’s see what you can do… ready? Go!
+            </p>
           </div>
         </div>
       </div>
@@ -203,8 +211,8 @@
   <div class="cta-overlay"></div>
   <div class="container">
     <div class="cta-content reveal">
-      <p class="cta-label">Join the Adventure</p>
-      <h2 class="cta-title">Get Kids Excited About Reading!</h2>
+      <p class="cta-label">Knock knock… who’s there? </p>
+      <h2 class="cta-title">A fun little adventure just for you! </h2>
       <div class="cta-phone-box">
         <div class="cta-phone">
           <a href="tel:+1-301-615-1239"><i class="fas fa-phone-alt me-2" style="font-size:.7em;"></i>+1-301-615-1239</a>
@@ -224,16 +232,17 @@
       <!-- Left -->
       <div class="col-lg-6 reveal">
         <span class="badge-label">Featured Books</span>
-        <h2 class="section-title mt-3">Subscribe to BhOOkey's Readers Club</h2>
+        <h2 class="section-title mt-3">A Little Club Full of Big Adventures!
+        </h2>
       </div>
 
       <!-- Right -->
       <div class="col-lg-6 reveal reveal-delay-1">
-        <p class="section-subtitle">
-          Join the world of imagination, language, and global adventure with
-          BhOOkey. Whether you're a curious child, a proud parent, a passionate
-          teacher, or a cultural storyteller, this is your space to connect,
-          create, and celebrate the power of stories.
+        <p class="section-subtitle black">
+          Can you say hello in a new way? 
+          Can you find the hidden fun in every page?
+          Come try it with BhOOkey and see what happens next
+
         </p>
         <a href="https://www.paypal.com/ncp/payment/SVT2TPDXC7T5G" class="btn-join mt-3" target="_blank"
           rel="noopener">Join Now!</a>
@@ -255,9 +264,10 @@
           <div class="featured-icon-wrap">
             <i class="fas fa-clinic-medical"></i>
           </div>
-          <h3 class="featured-card-title">The Adventure Begins</h3>
-          <p>A delightful tale about a girl who discovers a hidden world
-            filled with magical creatures.</p>
+          <h3 class="featured-card-title">Open It… Something’s Inside
+          </h3>
+          <p>A fun story about a girl who discovers a secret world full of magical creatures and surprises
+          </p>
         </div>
       </div>
 
@@ -266,9 +276,10 @@
           <div class="featured-icon-wrap">
             <i class="fas fa-gem"></i>
           </div>
-          <h3 class="featured-card-title">Cultural Journeys</h3>
-          <p>A story that takes readers on an adventure through various
-            cultural landscapes, celebrating traditions and values.</p>
+          <h3 class="featured-card-title">Come Explore New Places
+          </h3>
+          <p>A happy story that takes you on a journey through different cultures and fun traditions
+          </p>
         </div>
       </div>
 
@@ -277,9 +288,9 @@
           <div class="featured-icon-wrap">
             <i class="fas fa-file-prescription"></i>
           </div>
-          <h3 class="featured-card-title">Mystery of the Hidden Temple</h3>
-          <p>A thrilling quest set in ancient ruins where children learn
-            teamwork and problem-solving skills.</p>
+          <h3 class="featured-card-title">Uh Oh… A Hidden Mystery!
+          </h3>
+          <p>A thrilling adventure in an ancient place where kids solve puzzles and work together</p>
         </div>
       </div>
 
@@ -297,10 +308,14 @@
     <div class="row align-items-end mb-5">
       <div class="col-lg-6 reveal">
         <span class="badge-label">Our Passionate Friends</span>
-        <h2 class="section-title mt-3">Meet Our Team</h2>
+        <h2 class="section-title mt-3">Come meet your story friends
+        </h2>
       </div>
       <div class="col-lg-6 reveal reveal-delay-1">
-        <p class="section-subtitle">The Creative Minds Behind Our Stories</p>
+        <p class="section-subtitle">We made these stories for you to open, say hello, and go on a happy little adventure
+          every time
+
+        </p>
       </div>
     </div>
 
@@ -396,12 +411,12 @@
     <div class="row align-items-end mb-5">
       <div class="col-lg-6 reveal">
         <span class="badge-label badge-label-dark">What's your story?</span>
-        <h2 class="section-title mt-3">Testimonials from Parents and Kids</h2>
+        <h2 class="section-title mt-3">What Kids & Parents Are Saying </h2>
       </div>
       <div class="col-lg-6 reveal reveal-delay-1">
-        <p class="section-subtitle">
-          See how our adventure-themed books have inspired young readers and
-          brought joy to families around the world.
+        <p class="section-subtitle black">
+          Look! See how kids are having fun with these stories and how families are smiling, reading, and enjoying
+          storytime together
         </p>
       </div>
     </div>

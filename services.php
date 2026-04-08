@@ -97,7 +97,7 @@
 
   .process-step p {
     font-size: 14px;
-    color: var(--color-text);
+    color: black;
     margin-bottom: 0;
   }
 </style>
@@ -110,7 +110,7 @@
       <h1>Our Services</h1>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">Services</li>
         </ol>
       </nav>
@@ -124,10 +124,12 @@
     <div class="row justify-content-center text-center mb-5">
       <div class="col-lg-7 reveal">
         <span class="badge-label">What We Offer</span>
-        <h2 class="section-title mt-3">Children's Book Services</h2>
+        <h2 class="section-title mt-3">Travel the World with Books!</h2>
         <p class="section-subtitle mt-3">
-          We provide a wide range of thoughtfully designed books and programs
-          that help children learn, grow, and explore the world through stories.
+          What if a book could take you anywhere?
+          Flip the page, and suddenly you’re exploring new places, learning new words, and going on a happy little
+          adventure.
+
         </p>
       </div>
     </div>
@@ -138,9 +140,9 @@
           <img src="images/pexels-photo-12719357-2.jpeg" alt="Cultural Adventures" class="card-img-top" />
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-globe-africa"></i></div>
-            <h3>Cultural Adventures</h3>
-            <p>Books that celebrate diverse cultures and languages, guiding children on journeys of understanding and
-              empathy across the world.</p>
+            <h3>Say Hello Around the World</h3>
+            <p>Open a book and say hello in fun new ways! Meet different places, happy faces, and new words as you go on
+              a colorful little journey full of smiles and kindness </p>
           </div>
         </div>
       </div>
@@ -150,8 +152,8 @@
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-puzzle-piece"></i></div>
             <h3>Learning Through Play</h3>
-            <p>Engaging narratives with built-in interactive themes that make every reading session an adventure full of
-              discovery.</p>
+            <p>Let’s read and play together! These stories are full of fun moments and little surprises that make
+              learning feel like a happy adventure every time you turn the page </p>
           </div>
         </div>
       </div>
@@ -160,9 +162,10 @@
           <img src="images/Adventure-Books_13.png" alt="Creative Challenges" class="card-img-top" />
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-brain"></i></div>
-            <h3>Creative Challenges</h3>
-            <p>Stories designed to provoke curiosity and critical thinking, keeping children engaged and eager to learn
-              more.</p>
+            <h3>Think, Try, and Explore </h3>
+            <p>Your turn! Try fun little challenges, think, guess, and explore as you read. Each story keeps you
+              curious, excited, and ready to find what happens next!
+            </p>
           </div>
         </div>
       </div>
@@ -175,32 +178,35 @@
   <div class="container">
     <div class="row justify-content-center text-center mb-5">
       <div class="col-lg-7 reveal">
-        <h2 class="section-title">What Makes Our Books Special</h2>
+        <h2 class="section-title">Why You’ll Love These Books</h2>
       </div>
     </div>
     <div class="row g-4">
       <div class="col-md-4 reveal reveal-delay-1">
         <div class="feature-card feature-card-green shrink-hover">
           <div class="feature-icon"><i class="fas fa-user-nurse"></i></div>
-          <div class="feature-title">Engaging Storylines</div>
-          <p class="feature-text mt-2">Captivating tales that draw children into complex worlds while imparting moral
-            lessons and cultural contexts.</p>
+          <div class="feature-title">Fun Stories You Can Jump Into</div>
+          <p class="feature-text mt-2"> Exciting stories that pull kids into colorful worlds, where every page feels fun
+            and gently shares meaningful lessons along the way.</p>
         </div>
       </div>
       <div class="col-md-4 reveal reveal-delay-2">
         <div class="feature-card feature-card-orange shrink-hover">
           <div class="feature-icon"><i class="fas fa-microscope"></i></div>
-          <div class="feature-title">Interactive Activities</div>
-          <p class="feature-text mt-2">Each book comes with activities that encourage children to apply what they've
-            learned in fun and interactive ways.</p>
+          <div class="feature-title">Let’s Play While We Read
+          </div>
+          <p class="feature-text mt-2">Each book comes with fun little activities that help kids try, say, and explore
+            what they’re learning playfully.
+          </p>
         </div>
       </div>
       <div class="col-md-4 reveal reveal-delay-3">
         <div class="feature-card feature-card-dark shrink-hover">
           <div class="feature-icon"><i class="fas fa-hand-holding-heart"></i></div>
-          <div class="feature-title">Cultural Richness</div>
-          <p class="feature-text mt-2">Celebrate diversity through stories that introduce young readers to different
-            cultures and traditions around the globe.</p>
+          <div class="feature-title">Meet the World Around You
+          </div>
+          <p class="feature-text mt-2">Stories filled with different cultures and traditions, helping kids discover how
+            big, bright, and friendly the world can be </p>
         </div>
       </div>
     </div>
@@ -212,35 +218,39 @@
   <div class="container">
     <div class="text-center mb-5 reveal">
       <span class="badge-label">How It Works</span>
-      <h2 class="section-title mt-3">Getting Started is Easy</h2>
+      <h2 class="section-title mt-3">Let’s Get Started — It’s Super Easy!
+      </h2>
     </div>
     <div class="row g-4">
       <div class="col-md-3 reveal reveal-delay-1">
         <div class="process-step">
           <div class="process-num">1</div>
-          <h4>Browse Our Collection</h4>
-          <p>Explore our range of adventure-themed books for all ages and interests.</p>
+          <h4>Come Look Around</h4>
+          <p>Explore fun books full of little adventures, made for different ages and curious minds.</p>
         </div>
       </div>
       <div class="col-md-3 reveal reveal-delay-2">
         <div class="process-step">
           <div class="process-num">2</div>
-          <h4>Choose Your Books</h4>
-          <p>Pick the titles that best match your child's age group and interests.</p>
+          <h4>Pick Your Favorite</h4>
+          <p>Choose the story that feels just right for your child’s age and what they love.
+          </p>
         </div>
       </div>
       <div class="col-md-3 reveal reveal-delay-3">
         <div class="process-step">
           <div class="process-num">3</div>
-          <h4>Place Your Order</h4>
-          <p>Complete your purchase securely through our easy online checkout.</p>
+          <h4>Get Your Book
+          </h4>
+          <p>Order your book easily and safely in just a few simple steps.</p>
         </div>
       </div>
       <div class="col-md-3 reveal" style="transition-delay:.4s">
         <div class="process-step">
           <div class="process-num">4</div>
-          <h4>Start the Adventure</h4>
-          <p>Receive your books and embark on an unforgettable reading journey!</p>
+          <h4>Let’s Start the Fun
+          </h4>
+          <p>Open your book and jump into a happy little adventure together!</p>
         </div>
       </div>
     </div>
