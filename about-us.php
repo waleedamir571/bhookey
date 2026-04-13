@@ -95,7 +95,7 @@
 </section>
 
 <!-- VALUES -->
-<section class="section-py">
+<!-- <section class="section-py">
   <div class="container">
     <div class="text-center mb-5 reveal">
       <span class="badge-label">What Drives Us</span>
@@ -131,59 +131,164 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<!-- TEAM -->
-<section class="team-section section-py section-light">
-  <div class="container">
-    <div class="text-center mb-5 reveal">
-      <span class="badge-label">Our Passionate Friends</span>
-      <h2 class="section-title mt-3">Meet Our Team</h2>
-      <p class="section-subtitle mt-2 black">The Creative Minds Behind Our Stories</p>
+
+<div class="bg-dots"></div>
+<div class="pricing-wrapper team-section">
+  <!-- header exactly like described but more polished -->
+  <div class="pricing-header">
+    <div class="badge-club">
+      <i class="fas fa-book-open me-1"></i> Bhookey Readers Club
     </div>
-    <div class="row g-4">
-      <div class="col-md-4 reveal reveal-delay-1">
-        <div class="team-card float-card">
-          <img src="images/bukky.jpg" alt="Olubukola S. Taiwo" />
-          <div class="team-card-body">
-            <div class="team-name">Olubukola S. Taiwo</div>
-            <p class="team-role">Lead Author</p>
-          </div>
-          <div class="team-social">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          </div>
+    <p class="section-title">Readers Club Plans
+</p>
+    <p class="subhead">Discover our flexible plans designed to fit every family’s reading journey.</p>
+  </div>
+
+  <!-- pricing cards row (bootstrap grid) same 3 plans but elevated design -->
+  <div class="row g-4 justify-content-center">
+    <!-- BASIC PLAN -->
+    <div class="col-lg-4 col-md-6">
+      <div class="pricing-card">
+        <div class="plan-name">
+          BHOOKEY BASIC
+          <i class="fas fa-seedling" style="font-size: 1.4rem; color: #3b82f6;"></i>
         </div>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">50</span>
+          <span class="period"> / Per Year</span>
+        </div>
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Access to New Releases</li>
+          <li><i class="fas fa-print"></i> Printable Activities</li>
+          <li><i class="fas fa-glasses" style="color:#8ba0bc;"></i> Monthly newsletter</li>
+        </ul>
+        <button class="btn-plan btn-primary-dark" onclick="alert('✨ You selected Bhookey Basic plan. Start reading journey! ✨')">
+          <i class="fas fa-rocket"></i> Choose Plan
+        </button>
       </div>
-      <div class="col-md-4 reveal reveal-delay-2">
-        <div class="team-card float-card">
-          <img src="images/my-palaver-banners-2.png" alt="Kolade Madariola" />
-          <div class="team-card-body">
-            <div class="team-name">Kolade Madariola</div>
-            <p class="team-role">Program Director</p>
-          </div>
-          <div class="team-social">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          </div>
+    </div>
+
+    <!-- STANDARD PLAN (with extra exclusive content) -->
+    <div class="col-lg-4 col-md-6">
+      <div class="pricing-card card-standard">
+        <div class="plan-name">
+          BHOOKEY STANDARD
+          <i class="fas fa-chart-line" style="color:#3b82f6;"></i>
         </div>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">100</span>
+          <span class="period"> / Per Year</span>
+        </div>
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Access to New Releases</li>
+          <li><i class="fas fa-lock-open"></i> Exclusive Content</li>
+          <li><i class="fas fa-print"></i> Printable Activities</li>
+          <li><i class="fas fa-trophy"></i> Early access to events</li>
+        </ul>
+        <button class="btn-plan btn-primary-dark"
+          onclick="alert('🎉 Standard plan selected! Unlock exclusive stories & activities. 🎉')">
+          <i class="fas fa-gem"></i> Choose Plan
+        </button>
       </div>
-      <div class="col-md-4 reveal reveal-delay-3">
-        <div class="team-card float-card">
-          <img src="images/my-palaver-banners-1.png" alt="Funmi Ezemandu" />
-          <div class="team-card-body">
-            <div class="team-name">Funmi Ezemandu</div>
-            <p class="team-role">Marketing Specialist</p>
-          </div>
-          <div class="team-social">
-            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          </div>
+    </div>
+
+    <!-- PREMIUM PLAN (parental resources + premium extras) -->
+    <div class="col-lg-4 col-md-6">
+      <div class="pricing-card card-premium">
+        <div class="popular-tag">
+          <i class="fas fa-crown me-1"></i> MOST POPULAR
         </div>
+        <div class="plan-name">
+          BHOOKEY PREMIUM
+          <i class="fas fa-crown" style="color:#f59e0b;"></i>
+        </div>
+        <div class="price">
+          <span class="currency">$</span>
+          <span class="amount">150</span>
+          <span class="period"> / Per Year</span>
+        </div>
+        <ul class="features-list">
+          <li class="premium-feature"><i class="fas fa-check-circle"></i> Access to New Releases</li>
+          <li class="premium-feature"><i class="fas fa-star"></i> Exclusive Content</li>
+          <li class="premium-feature"><i class="fas fa-print"></i> Printable Activities</li>
+          <li class="premium-feature"><i class="fas fa-chalkboard-user"></i> Parental Resources</li>
+          <li class="premium-feature"><i class="fas fa-calendar-alt"></i> Live reading sessions</li>
+        </ul>
+        <button class="btn-plan btn-primary-dark"
+          onclick="alert('🏆 Bhookey Premium — empower your family’s reading journey! 🏆')">
+          <i class="fas fa-crown"></i> Choose Plan
+        </button>
       </div>
     </div>
   </div>
-</section>
 
-<!-- FOOTER -->
-<?php include('partials/footer.php'); ?>
+  <!-- extra comparison note (optional) but adds value, reflects same to same but better -->
+  <!-- <div class="row mt-5">
+    <div class="col-12 text-center">
+      <div class="d-inline-flex flex-wrap justify-content-center gap-3 p-3 bg-white rounded-4 shadow-sm border"
+        style="backdrop-filter: blur(4px);">
+        <span class="px-3 py-1"><i class="fas fa-check-circle text-primary me-1"></i> 30-day money back</span>
+        <span class="px-3 py-1"><i class="fas fa-sync-alt text-primary me-1"></i> Cancel anytime</span>
+        <span class="px-3 py-1"><i class="fas fa-users text-primary me-1"></i> Family sharing available</span>
+      </div>
+    </div>
+  </div> -->
+</div>
+  <!-- TEAM -->
+  <section class="team-section section-py section-light">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="badge-label">Our Passionate Friends</span>
+        <h2 class="section-title mt-3">Meet Our Team</h2>
+        <p class="section-subtitle mt-2 black">The Creative Minds Behind Our Stories</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 reveal reveal-delay-1">
+          <div class="team-card float-card">
+            <img src="images/bukky.jpg" alt="Olubukola S. Taiwo" />
+            <div class="team-card-body">
+              <div class="team-name">Olubukola S. Taiwo</div>
+              <p class="team-role">Lead Author</p>
+            </div>
+            <div class="team-social">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-2">
+          <div class="team-card float-card">
+            <img src="images/my-palaver-banners-2.png" alt="Kolade Madariola" />
+            <div class="team-card-body">
+              <div class="team-name">Kolade Madariola</div>
+              <p class="team-role">Program Director</p>
+            </div>
+            <div class="team-social">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal reveal-delay-3">
+          <div class="team-card float-card">
+            <img src="images/my-palaver-banners-1.png" alt="Funmi Ezemandu" />
+            <div class="team-card-body">
+              <div class="team-name">Funmi Ezemandu</div>
+              <p class="team-role">Marketing Specialist</p>
+            </div>
+            <div class="team-social">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <?php include('partials/footer.php'); ?>

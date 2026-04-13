@@ -3,13 +3,13 @@
 <style>
   .page-hero {
     position: relative;
-    background: url('images/about.webp') center center / cover no-repeat;
+    background: url('images/bg1.jpg') center center / cover no-repeat;
     padding: 160px 0 120px;
   }
 
-  .page-hero .hero-overlay {
+  /* .page-hero .hero-overlay {
     background: rgba(7, 150, 17, .55);
-  }
+  } */
 
   .page-hero h1 {
     color: #fff;

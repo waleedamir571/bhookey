@@ -59,5 +59,27 @@
 <!-- Custom JS -->
 <script src="js/main.js"></script>
 <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+
+<script>
+    // Image error handling - agar aapki original image hai toh
+    const img = document.querySelector('.about-img-wrapper img');
+    if (img) {
+      img.addEventListener('error', function() {
+        this.src = "https://placehold.co/800x600/EFE3D0/5E3A1F?text=Bhookey+Books&font=playfair";
+      });
+    }
+    
+    // Optional: Mouse movement se thoda extra effect (lightweight)
+    const wrapper = document.querySelector('.about-img-wrapper');
+    if (wrapper) {
+      wrapper.addEventListener('mousemove', function(e) {
+        const rect = this.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+        this.style.setProperty('--x', `${x}%`);
+        this.style.setProperty('--y', `${y}%`);
+      });
+    }
+  </script>
 </body>
 </html>

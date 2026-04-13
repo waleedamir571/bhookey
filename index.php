@@ -163,7 +163,7 @@
 
       <div class="col-md-4 reveal reveal-delay-1">
         <div class="book-card float-card">
-          <img src="images/pexels-photo-12719357-2.jpeg" alt="Cultural Adventures" />
+          <img src="images/1.jpg" alt="Cultural Adventures" />
           <div class="book-card-body">
             <div class="book-card-title">Let’s Explore the World
             </div>
@@ -176,7 +176,7 @@
 
       <div class="col-md-4 reveal reveal-delay-2">
         <div class="book-card float-card">
-          <img src="images/book_dummy.png" alt="Learning Through Play" />
+          <img src="images/2.jpg" alt="Learning Through Play" />
           <div class="book-card-body">
             <div class="book-card-title">Let’s Read & Play
             </div>
@@ -190,7 +190,7 @@
 
       <div class="col-md-4 reveal reveal-delay-3">
         <div class="book-card float-card">
-          <img src="images/Adventure-Books_13.png" alt="Creative Challenges" />
+          <img src="images/3.jpg" alt="Creative Challenges" />
           <div class="book-card-body">
             <div class="book-card-title">Your Turn to Try! </div>
             <p>Ready? Let’s go!

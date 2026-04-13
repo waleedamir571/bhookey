@@ -130,7 +130,7 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-content reveal">
-        <h1>About Us</h1>
+        <h1>Readers Club</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item"><a href="index.php">Home</a></li>
