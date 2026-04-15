@@ -13,7 +13,7 @@
 
   /* ---- Article / entry-content wrapper ---- */
   /* WordPress default: max-width ~800px, centered, padding */
-  .readers-club-content {
+ .readers-club-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 50px 24px 80px;
@@ -49,7 +49,7 @@
   /* ---- Paragraph text ---- */
   /* body.pagelayer-body p: font-size:16px color:#707779 */
   .readers-club-content p {
-    color: #707779;
+    color: white;
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 16px;
@@ -66,7 +66,7 @@
   }
 
   .readers-club-content ul.wp-block-list li {
-    color: #707779;
+    color: white;
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 8px;
@@ -75,6 +75,7 @@
 
   .readers-club-content ul.wp-block-list li strong {
     color: #1f2732;
+    font-weight: 800;
   }
 
   .readers-club-content ul.wp-block-list li em {
@@ -145,7 +146,7 @@
 
       <!-- wp-block-image size-full (800×600) -->
       <figure class="wp-block-image">
-        <img width="800" height="600" src="images/pexels-photo-12719357-2.jpeg" alt="" loading="lazy" />
+        <img width="800" height="600" src="images/club.jpg" alt="" loading="lazy" />
       </figure>
 
       <!-- Heading: "Where Young Minds Explore, Share, and Grow" -->

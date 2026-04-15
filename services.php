@@ -137,7 +137,7 @@
     <div class="row g-4">
       <div class="col-md-4 reveal reveal-delay-1">
         <div class="service-main-card">
-          <img src="images/pexels-photo-12719357-2.jpeg" alt="Cultural Adventures" class="card-img-top" />
+          <img src="images/1.jpg" alt="Cultural Adventures" class="card-img-top" />
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-globe-africa"></i></div>
             <h3>Say Hello Around the World</h3>
@@ -148,7 +148,7 @@
       </div>
       <div class="col-md-4 reveal reveal-delay-2">
         <div class="service-main-card">
-          <img src="images/book_dummy.png" alt="Learning Through Play" class="card-img-top" />
+          <img src="images/2.jpg" alt="Learning Through Play" class="card-img-top" />
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-puzzle-piece"></i></div>
             <h3>Learning Through Play</h3>
@@ -159,7 +159,7 @@
       </div>
       <div class="col-md-4 reveal reveal-delay-3">
         <div class="service-main-card">
-          <img src="images/Adventure-Books_13.png" alt="Creative Challenges" class="card-img-top" />
+          <img src="images/3.jpg" alt="Creative Challenges" class="card-img-top" />
           <div class="card-body">
             <div class="card-icon"><i class="fas fa-brain"></i></div>
             <h3>Think, Try, and Explore </h3>
@@ -259,6 +259,61 @@
 </section>
 
 <!-- CTA STRIP -->
+
+<section class="section-py section-light">
+  <div class="container">
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-7">
+        <h2 class="section-title">Join Our Live Reading Session</h2>
+        <p class="mt-3 text-muted">Connect with authors, storytellers, and young readers from around the world</p>
+      </div>
+    </div>
+    
+    <!-- Zoom Meeting Link Section -->
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="zoom-link-wrapper">
+          <a href="https://app.zoom.us/wc/join" class="zoom-link-card" target="_blank">
+            <div class="zoom-icon">
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="zoom-content">
+              <h3 class="zoom-title">Weekly Storytelling Session</h3>
+              <p class="zoom-description">Every Saturday at 11:00 AM (EST) • Live interactive reading with activities</p>
+              <span class="zoom-cta">
+                Join Zoom Meeting 
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </div>
+            <div class="zoom-decoration">
+              <i class="fas fa-search-plus"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Meeting Details -->
+    <!-- <div class="row mt-5 pt-4">
+      <div class="col-12">
+        <div class="meeting-details">
+          <div class="detail-item">
+            <i class="fas fa-clock"></i>
+            <span>Every Saturday | 11:00 AM EST</span>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-hourglass-half"></i>
+            <span>Duration: 45 minutes</span>
+          </div>
+          <div class="detail-item">
+            <i class="fas fa-users"></i>
+            <span>Free for all members</span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
 
 
 <!-- FOOTER -->

@@ -128,7 +128,7 @@
       <!-- Right: Image -->
       <div class="col-lg-6 reveal reveal-delay-2 text-center">
         <div class="about-img-wrapper mouse-track">
-          <img src="images/bhookey-books.png" alt="BhOOKey Books" />
+          <img src="images/bhookeyanimated.jpg" alt="BhOOKey Books" />
         </div>
       </div>
 

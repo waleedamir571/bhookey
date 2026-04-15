@@ -3,7 +3,7 @@
 <style>
   .page-hero {
     position: relative;
-    background: url('images/about.webp') center center / cover no-repeat;
+    background: url('images/club.jpg') center center / cover no-repeat;
     padding: 160px 0 120px;
   }
 
