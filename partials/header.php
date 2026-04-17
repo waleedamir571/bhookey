@@ -21,9 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" /> -->
 
-    <link href="https://fonts.cdnfonts.com/css/milkyway-2" rel="stylesheet">
+    <!-- <link href="https://fonts.cdnfonts.com/css/milkyway-2" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
                 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />

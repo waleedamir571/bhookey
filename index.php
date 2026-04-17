@@ -150,7 +150,7 @@
       </div>
       <div class="col-lg-6 reveal reveal-delay-1">
         <p class="section-subtitle black">
-          Hey you! 👀
+          Hey you! 
           Want to go on a fun little adventure? Open a book and let’s go! Say hello, meet new friends, learn new words,
           and see what surprise is waiting on the next page
 

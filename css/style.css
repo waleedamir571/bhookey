@@ -337,8 +337,8 @@ html {
 }
 
 body {
-  /* font-family: 'Nunito', 'Fredoka', 'Segoe UI Emoji', sans-serif !important;  */
-  font-family: 'Milkyway', sans-serif !important;
+  font-family: 'Nunito', 'Fredoka', 'Segoe UI Emoji', sans-serif !important; 
+  /* font-family: 'Milkyway', sans-serif !important; */
   /* font-family: var(--font-family); */
   font-size: 16px;
   font-weight: 400;
