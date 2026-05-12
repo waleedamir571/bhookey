@@ -81,5 +81,8 @@
       });
     }
   </script>
+
+  <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+<zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cmp1jm2y5007dwv7uqsmq14wt'></zapier-interfaces-chatbot-embed>
 </body>
 </html>
