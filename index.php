@@ -20,7 +20,7 @@
             </span>
             <span class="static-text"> to </span>
             <br class="break-line">
-            <span class="static-text"><span class="brand">BhOOKey.com</span></span>
+            <span class="static-text"><span class="brand">Adventures-Of-BhOOKey.com</span></span>
           </h1>
         </div>
         <p class="reveal reveal-delay-1">
